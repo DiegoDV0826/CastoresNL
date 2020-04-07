@@ -303,6 +303,10 @@ hr {
  * Que ofrecemos
  */
 
+#que-ofrecemos {
+  background: rgba(230, 230, 250, 0.3);
+}
+
 #que-ofrecemos img {
   height: auto;
   max-width: 100%;
@@ -336,9 +340,6 @@ hr {
  * Alianzas
  */
 
-#alianzas {
-  background: rgba(230, 230, 250, 0.3);
-}
 
 #alianzas img {
   height: auto;
@@ -353,7 +354,6 @@ hr {
 #contacto {
   background: rgba(230, 230, 250, 0.3);
 }
-
 .contact-icons {
   padding: 0 1em;
 }
