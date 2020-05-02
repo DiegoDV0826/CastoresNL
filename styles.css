@@ -123,7 +123,14 @@ body {
   }
 }
 
+.btn-info{
+    background: rgb(42, 145, 55);
+    color: rgb(255, 255, 255);
+}
 
+.oi-person{
+    background-image: url(assets/img/fb.png)
+}
 
 
 
@@ -205,10 +212,12 @@ hr {
 #razon-de-ser h4 {
   font-weight: 600;
   text-align: center;
+  color: rgb(42, 145, 55);
 }
 
 #razon-de-ser h5 {
   font-weight: 600;
+  color: rgb(42, 145, 55);
 }
 
 #razon-de-ser img {
@@ -236,10 +245,12 @@ hr {
 #nosotros h4 {
   font-weight: 600;
   text-align: center;
+  color: rgb(42, 145, 55);
 }
 
 #nosotros h5 {
   font-weight: 600;
+  color: rgb(42, 145, 55);
 }
 
 #nosotros img {
@@ -257,7 +268,7 @@ hr {
 
 
 /*
- * Directorio
+ * Formato
  */
 
 #directorio img {
@@ -300,50 +311,66 @@ hr {
 
 
 /*
- * Que ofrecemos
+ * formato
  */
 
-#que-ofrecemos {
+#formato {
   background: rgba(230, 230, 250, 0.3);
 }
 
-#que-ofrecemos img {
+#formato img {
   height: auto;
   max-width: 100%;
   -webkit-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 
-#que-ofrecemos a > p {
+#formato a > p {
   font-size: 1.25em;
   padding-top: 5%;
 }
 
-#que-ofrecemos a {
+#formato a {
   color: inherit;
   text-decoration: none;
 }
 
-#que-ofrecemos h3 {
+#formato h3 {
   color: rgb(42, 145, 55);
   font-weight: 400;
 }
 
-#que-ofrecemos h4 {
+#formato h4 {
   color: rgb(42, 145, 55);
   font-weight: 600;
 }
 
 
-
 /*
- * Alianzas
+ * seguro
  */
 
 
-#alianzas img {
-  height: auto;
-  max-width: 100%;
+
+
+#seguro a > p {
+  font-size: 1.25em;
+  padding-top: 5%;
+}
+
+#seguro a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#seguro h3 {
+  color: rgb(42, 145, 55);
+  font-weight: 400;
+}
+
+#seguro h4 {
+  color: rgb(42, 145, 55);
+  font-weight: 600;
 }
 
 
@@ -394,7 +421,7 @@ hr {
 
 #thankyou-message {
   align-items: center;
-  background-color: rgba(128, 0, 128, 0.8);
+  background-color: rgba(42, 145, 55, 0.8);
   box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.3);
   border-radius: 50px;
   color: white;
@@ -409,7 +436,11 @@ hr {
 }
 
 
-
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
 
 
 /******************************************************************************
@@ -456,6 +487,11 @@ footer a {
 
 #gerardoOsioLink:hover {
   color: rgb(253,112,20);
+  text-decoration: none;
+}
+
+#DiegoDV0826Link:hover {
+  color: rgb(71, 107, 204);
   text-decoration: none;
 }
 
