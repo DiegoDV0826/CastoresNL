@@ -51,8 +51,6 @@ body {
 
 
 
-
-
 /******************************************************************************
   Header
 ******************************************************************************/
@@ -145,7 +143,7 @@ body {
 .title-section {
   background:
     linear-gradient(90deg, rgba(113, 219, 110,0.75) 0%, rgba(230,230,250,0.5) 200%),
-    url("#")
+    url("assets/img/Cola_de_Caballo.jpg")
     center/cover;
   background-attachment: fixed;
   color: white;
@@ -484,6 +482,9 @@ footer a {
   color: yellow;
   padding: 0 2px;
 }
+footer .modal-body {
+  text-align: left;
+}
 
 #gerardoOsioLink:hover {
   color: rgb(253,112,20);
@@ -497,5 +498,10 @@ footer a {
 
 #thunderMXLink:hover {
   color: yellow;
+  text-decoration: none;
+}
+
+#TYC&ADP:hover {
+  color: rgb(0,0,0);
   text-decoration: none;
 }

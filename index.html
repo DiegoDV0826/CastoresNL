@@ -14,6 +14,7 @@
     <link href="assets/icons/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
     <!-- Custom stylesheet -->
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="flickity.css" media="screen">
 
     <title>Castores N.L.</title>
   </head>
@@ -24,7 +25,7 @@
       <div class="container">
         <a href="#top">
           <div class="navbar-logo">
-            <img src="assets/img/castores.png" width="10px"  alt="Sostelar">
+            <img src="assets/img/castores.png" width="10px"  alt="Castores">
              <span class="navbar-logo-title">Castores Nuevo León</span> 
           </div>
         </a>
@@ -86,7 +87,11 @@
           <div class="col-sm pt-4">
              <h5 class="pt-2">¿Por qué surge Castores Nuevo León? </h5>
              <p>
-                Ante la inquietud de los padres de familia de convertir a sus hijos en scout, varios grupos empiezan a atender a niños menores de 7 años, pero se ven imposibilitados pues necesitan de una personalidad jurídica para darles seguridad en el desarrollo de sus actividades. Es ahí donde entra Ser Scout, A.C. una asociación de antiguos scouts creada con la finalidad de apoyar la promoción del escultismo en Nuevo León. Ya con el apoyo de Ser Scout, A.C. varios dirigentes scouts se dan a la tarea de darle forma al proyecto, tanto en cuestiones operativas como administrativas y es como nace el programa: Castores Nuevo León.            
+                Ante la inquietud de los padres de familia de convertir a sus hijos en scout, varios grupos empiezan a atender a niños menores de 7 años,
+                pero se ven imposibilitados pues necesitan de una personalidad jurídica para darles seguridad en el desarrollo de sus actividades. 
+                Es ahí donde entra Ser Scout, A.C. una asociación de antiguos scouts creada con la finalidad de apoyar la promoción del escultismo en Nuevo León. 
+                Ya con el apoyo de Ser Scout, A.C. varios dirigentes scouts se dan a la tarea de darle forma al proyecto, tanto en cuestiones operativas como 
+                administrativas y es como nace el programa: Castores Nuevo León.            
             </p>
             <h5 class="pt-2">¿Los Castores son Scouts? </h5>
             <p>
@@ -102,7 +107,7 @@
             </p>
           </div> <!-- col-sm -->
           <div class="col-md pt-4 d-flex justify-content-center align-items-center">
-            <img class="img-fluid rounded" src="assets/img/equipo.jpg" alt="equipo-sostelar">
+            <img class="img-fluid rounded" src="assets/img/Castores_Scouts_1.jpg" alt="Castores">
           </div> <!-- col-md -->
         </div> <!-- row -->
         <div class="row py-4">
@@ -141,7 +146,7 @@
         </div> <!-- row -->
         <div class="row d-flex align-items-center">
           <div class="col-sm pt-4">
-            <img class="img-fluid rounded" src="assets/img/equipo.jpg" alt="equipo-sostelar">
+            <img class="img-fluid rounded" src="assets/img/Castores_Scouts_2.jpg" alt="Castores">
           </div> <!-- col-sm -->
           <div class="col-md pt-4  align-items-center">
             <h5 class="pt-2">Colonia de Castores</h5>
@@ -176,7 +181,7 @@
         <div class="row pt-4 d-flex text-center">
           <div class="hover-effect col-6 col-md-3">
             <a data-toggle="modal" data-target="#modalKarina">
-              <img src="#" alt="Karina">
+              <img src="assets/img/Personas_directorio.png" alt="Karina">
               <p>Karina</p>
             </a>
           </div>
@@ -204,7 +209,7 @@
 
           <div class="hover-effect col-6 col-md-3">
             <a data-toggle="modal" data-target="#modalGuillermo">
-              <img src="#" alt="Guillermo">
+              <img src="assets/img/Personas_directorio.png" alt="Guillermo">
               <p>Guillermo</p>
             </a>
           </div>
@@ -232,7 +237,7 @@
 
           <div class="hover-effect col-6 col-md-3">
             <a data-toggle="modal" data-target="#modalValeria">
-              <img src="#" alt="Valeria">
+              <img src="assets/img/Personas_directorio.png" alt="Valeria">
               <p>Valeria</p>
             </a>
           </div>
@@ -260,7 +265,7 @@
 
           <div class="hover-effect col-6 col-md-3">
             <a data-toggle="modal" data-target="#modalHAM">
-              <img src="#" alt="Hipólito, Agustín, y Marcela">
+              <img src="assets/img/Personas_directorio.png" alt="Hipólito, Agustín, y Marcela">
               <p>Hipólito, Agustín, y Marcela</p>
             </a>
           </div>
@@ -288,7 +293,7 @@
 
           <div class="hover-effect col-12 col-md-4">
             <a data-toggle="modal" data-target="#modalMartha">
-              <img src="#" alt="Martha">
+              <img src="assets/img/Personas_directorio.png" alt="Martha">
               <p>Martha</p>
             </a>
           </div>
@@ -316,7 +321,7 @@
 
           <div class="hover-effect col-12 col-md-4">
             <a data-toggle="modal" data-target="#modalDavid">
-              <img src="#" alt="David">
+              <img src="assets/img/Personas_directorio.png" alt="David">
               <p>David</p>
             </a>
           </div>
@@ -344,7 +349,7 @@
 
           <div class="hover-effect col-12 col-md-4">
             <a data-toggle="modal" data-target="#modalFernando">
-              <img src="#" alt="Fernando">
+              <img src="assets/img/Personas_directorio.png" alt="Fernando">
               <p>Fernando</p>
             </a>
           </div>
@@ -387,77 +392,80 @@
           </div>
         </div>
 
-        <div class="row">
-            <div class="col sm 2">
-                <div class="card" style="height:165px" >
-                  <div class="card-body">
-                    <h5 class="card-title">CNL Acuerdo Buena Vecindad</h5></br>
-                    <a href="#" class="btn btn-info" style="color:white">Descargar</a>
-                  </div>
-                </div>
+        
+          
+        <div class="carousel" data-flickity='{ "groupCells": 3 }'>
+          <div class="carousel-cell">
+            <div class="card" style="height:165px" >
+               <div class="card-body">
+                 <h5 class="card-title">CNL Acuerdo Buena Vecindad</h5></br>
+                 <a href="assets/Documentos/CNL_Acuerdo_Buena_Vecindad.pdf" class="btn btn-info" style="color:white" target="_blank">Descargar</a>
+               </div>
+             </div>
+          </div>
+  
+          <div class="carousel-cell">
+            <div class="card" style="height:165px" >
+               <div class="card-body">
+                  <h5 class="card-title">CNL Aviso salida 2019</h5></br></br>
+                  <a href="assets/Documentos/CNL_Aviso_salida_2019.xls" class="btn btn-info" style="color:white" target="_blank">Descargar</a>
+               </div>
+             </div>
+          </div>
+  
+          <div class="carousel-cell">
+            <div class="card" style="height:165px" >
+               <div class="card-body">
+                  <h5 class="card-title">CNL FORMATO ESPECIALIDADES</h5></br>
+                  <a href="assets/Documentos/CNL_FORMATO_ESPECIALIDADES.doc" class="btn btn-info" style="color:white" target="_blank">Descargar</a>
+               </div>
+             </div>
+          </div>
+  
+          <div class="carousel-cell">
+            <div class="card" style="height:165px" >
+               <div class="card-body">
+                 <h5 class="card-title">CNL Formato Inscripción 2019</h5></br>
+                 <a href="assets/Documentos/CNL_Formato_Inscripción_2019.pdf" class="btn btn-info" style="color:white" target="_blank">Descargar</a>
+               </div>
             </div>
-            <div class="col sm 2">
-                <div class="card" style="height:165px" >
-                  <div class="card-body">
-                    <h5 class="card-title">CNL Aviso salida 2019</h5></br></br>
-                    <a href="#" class="btn btn-info" style="color:white">Descargar</a>
-                  </div>
-                </div>
+          </div>
+  
+          <div class="carousel-cell">
+            <div class="card" style="height:165px" >
+              <div class="card-body">
+                <h5 class="card-title">CNL Formato Progresiones 2019</h5></br>
+                <a href="assets/Documentos/CNL_Formato_Progresiones_2019.xls" class="btn btn-info" style="color:white" target="_blank">Descargar</a>
+              </div>
             </div>
-            <div class="col sm 2">
-                <div class="card" style="height:165px" >
-                  <div class="card-body">
-                    <h5 class="card-title">CNL FORMATO ESPECIALIDADES</h5></br>
-                    <a href="#" class="btn btn-info" style="color:white">Descargar</a>
-                  </div>
-                </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card" style="height:165px" >
+              <div class="card-body">
+                <h5 class="card-title">CNL Manual de Operación 2014</h5></br>
+                <a href="assets/Documentos/CNL_Manual_de Operación_2014.pdf" class="btn btn-info" style="color:white" target="_blank">Descargar</a>
+              </div>
             </div>
-            <div class="col sm 2">
-                <div class="card" style="height:165px" >
-                  <div class="card-body">
-                    <h5 class="card-title">CNL Formato Inscripción 2019</h5></br>
-                    <a href="#" class="btn btn-info" style="color:white">Descargar</a>
-                  </div>
-                </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card" style="height:165px" >
+              <div class="card-body">
+                <h5 class="card-title">CNL Reglamento Vigente A partir de Enero 1 del 2019</h5></br>
+                <a href="assets/Documentos/CNL_Reglamento_Vigente_A_partir_de_Enero_1_del_2019.pdf" class="btn btn-info" style="color:white" target="_blank">Descargar</a>
+              </div>
             </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card" style="height:165px" >
+              <div class="card-body">
+                <h5 class="card-title">LA VIDA EN EL ESTANQUE</h5></br></br>
+                <a href="assets/Documentos/LA VIDA EN EL ESTANQUE.pdf" class="btn btn-info" style="color:white" target="_blank">Descargar</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        </div><!--row1-->
-        <br>
-        <div class="row">
-            <div class="col sm 2">
-                <div class="card" style="height:165px" >
-                  <div class="card-body">
-                    <h5 class="card-title">CNL Formato Progresiones 2019</h5></br>
-                    <a href="#" class="btn btn-info" style="color:white">Descargar</a>
-                  </div>
-                </div>
-            </div>
-            <div class="col sm 2">
-                <div class="card" style="height:165px" >
-                  <div class="card-body">
-                    <h5 class="card-title">CNL Manual de Operación 2014</h5></br>
-                    <a href="#" class="btn btn-info" style="color:white">Descargar</a>
-                  </div>
-                </div>
-            </div>
-            <div class="col sm 2">
-                <div class="card" style="height:165px" >
-                  <div class="card-body">
-                    <h5 class="card-title">CNL Reglamento Vigente A partir de Enero 1 del 2019</h5>
-                    <a href="#" class="btn btn-info" style="color:white">Descargar</a>
-                  </div>
-                </div>
-            </div>
-            <div class="col sm 2">
-                <div class="card" style="height:165px" >
-                  <div class="card-body">
-                    <h5 class="card-title">LA VIDA EN EL ESTANQUE</h5></br>
-                    <a href="#" class="btn btn-info" style="color:white">Descargar</a>
-                  </div>
-                </div>
-            </div>
 
-        </div><!--row2-->
 
       </div> <!-- container -->
     </div> <!-- Formato -->
@@ -491,10 +499,12 @@
               <div class="modal-content">
                 <div class="modal-body">
                   <p>
-                    a)	En la forma “Aviso de Accidente CHARTIS”, la “Sección II - Informe Médico” la debe llenar y firmar el médico que atendió el padecimiento.  Si hubo varios médicos involucrados, cada uno de ellos debe llenar este formato. 
+                    a)	En la forma “Aviso de Accidente CHARTIS”, la “Sección II - Informe Médico” la debe llenar y firmar el médico que atendió el padecimiento. 
+                    Si hubo varios médicos involucrados, cada uno de ellos debe llenar este formato. 
                   </p>
                   <p>
-                    b)	El resto de la forma “Aviso de Accidente” la debe el papá<strong>*</strong> del Castor.  Son datos generales de él y del Castor que requirió la atención médica y una breve descripción del padecimiento que está reclamando.
+                    b)	El resto de la forma “Aviso de Accidente” la debe el papá<strong>*</strong> del Castor.  Son datos generales de él y del Castor 
+                    que requirió la atención médica y una breve descripción del padecimiento que está reclamando.
                   </p>
                   <p>
                     c)	El resto de los formatos se explican por si solos. 
@@ -507,6 +517,7 @@
               </div> <!-- modal-content -->
             </div> <!-- modal-dialog -->
           </div> <!-- modal -->
+
 
           <div class="hover-effect col-lg-6 ">
             <div class="card" style="height:140px" >
@@ -554,7 +565,50 @@
             </div> <!-- modal-dialog -->
           </div> <!-- modal -->
 
+
         </div>
+        </br>
+        <h3>Documentos relacionados:</h3>
+        </br>
+        <div class="row">
+            <div class="col md 6">
+                <div class="card" style="height:140px" >
+                   <div class="card-body">
+                     <h5 class="card-title">Identificacion Clientes PERSONA FISICA CHARTIS</h5></br>
+                     <a href="assets/Documentos/Identificacion_Clientes_PERSONA_FISICA_CHARTIS.doc" class="btn btn-info" style="color:white" target="_blank">Descargar</a>
+                   </div>
+                 </div>
+            </div>
+            <div class="col md 6">
+                 <div class="card" style="height:140px" >
+                   <div class="card-body">
+                      <h5 class="card-title">Solicitud Documentos - Gastos Médicos CHARTIS</h5></br>
+                      <a href="assets/Documentos/Solicitud Documentos - Gastos Médicos CHARTIS.xls" class="btn btn-info" style="color:white" target="_blank">Descargar</a>
+                   </div>
+                 </div>
+            </div>
+        </div>
+        </br>
+        <div class="row">
+            <div class="col md 3">
+                 <div class="card" style="height:140px" >
+                   <div class="card-body">
+                      <h5 class="card-title">Carta Reclamacion CHARTIS</h5></br>
+                      <a href="assets/Documentos/Carta_Reclamacion_CHARTIS.doc" class="btn btn-info" style="color:white" target="_blank">Descargar</a>
+                   </div>
+                 </div>
+            </div>
+            <div class="col md 3">
+                 <div class="card" style="height:140px" >
+                   <div class="card-body">
+                     <h5 class="card-title">Aviso de accidente CHARTIS</h5></br>
+                     <a href="assets/Documentos/Aviso_de_accidente_CHARTIS.pdf" class="btn btn-info" style="color:white" target="_blank">Descargar</a>
+                   </div>
+                </div>
+            </div>
+
+        </div>
+
       </div> <!-- container -->
     </div> <!-- seguro -->
     <!-- /seguro -->
@@ -580,7 +634,8 @@
               </div>
             </div> 
             row phone -->
-            <div class="row contact-email">
+            
+            <div class="row contact-email"><!-- row email -->
               <div class="col-xs-1">
                 <p><span class="oi oi-envelope-closed contact-icons" title="envelope closed"></span></p>
               </div>
@@ -588,7 +643,7 @@
                 <p><a href="mailto::contacto@castoresnl.org.mx">E-mail: contacto@castoresnl.org.mx</a></p>
               </div>
             </div> <!-- row email -->
-            <div class="row contact-social-networks">
+            <div class="row contact-social-networks"><!-- row social networks-->
               <div class="col-xs-1">
                 <p><span class="oi oi-person contact-icons" title="person"></span></p>
               </div>
@@ -674,7 +729,110 @@
         <span class="oi oi-code" title"code"></span> by <a href="https://github.com/DiegoDV0826" id="DiegoDV0826Link" target="_blank">DiegoDV0826</a> for <a href="https://www.facebook.com/ThunderTecMx/" id="thunderMXLink" target="_blank"><span class="oi oi-bolt"></span>MX</a>
       </div>
         Original work by <a href="https://github.com/geraosio/" id="gerardoOsioLink" target="_blank">geraosio</a>
+       <p>
+         <a href="#" data-toggle="modal" data-target="#modalADP" > Aviso de privacidad </a> | <a href="#" data-toggle="modal" data-target="#modalTYC"> Terminos y Condiciones </a>
+       </p>
+          
+
     </footer>
+    <!-- Modal -->
+          <div class="modal fade" id="modalADP" tabindex="-1" role="dialog" aria-labelledby="modalTitleADP" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title" id="modalTitleADP" style="color: rgb(42, 145, 55);">Aviso de Privacidad</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div> <!-- modal-header -->
+                <div class="modal-body">
+                  <p>
+                    En términos de lo previsto en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares 
+                    (en lo sucesivo denominada como “la Ley”), te pedimos que leas cuidadosamente los Términos y Condiciones contenidos 
+                    en este Aviso de Privacidad, ya que la simple aportación que hagas de tus datos Personales mediante su entrega a Ser Scout,
+                    A.C. a través de su Programa Castores Nuevo León, ya sea a través de nuestras página de Internet <a href="http://www.castoresnl.org.mx">(http://www.castoresnl.org.mx) </a>, 
+                    al correo electrónico de los diferentes miembros del Programa Castores Nuevo León de Ser Scout, A.C., y/o el llenado del Formato de 
+                    Inscripción del Programa Castores Nuevo León; constituye la aceptación de nuestros Términos y Condiciones y en consecuencia nos 
+                    autorizas expresamente al tratamiento de tus datos personales.
+                  </p>
+                </div> <!-- modal-body -->
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div> <!-- modal-content -->
+            </div> <!-- modal-dialog -->
+          </div> <!-- modal -->
+
+          <!-- Modal -->
+          <div class="modal fade" id="modalTYC" tabindex="-1" role="dialog" aria-labelledby="modalTitleTYC" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title" id="modalTitleTYC" style="color: rgb(42, 145, 55);">Términos y Condiciones</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div> <!-- modal-header -->
+                <div class="modal-body">
+                  <p>
+                    <strong>1.</strong> El presente Aviso tiene por objeto la protección de tus datos personales, mediante su tratamiento legítimo, controlado e 
+                    informado, a efecto de garantizar su privacidad, así como tu derecho a la autodeterminación informativa.
+                    </br>
+                    <strong>2.</strong> Conforme al artículo 3, fracción V, de la Ley, se entiende por Datos Personales: Cualquier información concerniente a 
+                    una persona física identificada o identificable.
+                    </br>
+                    <strong>3.</strong> Ser Scout, Asociación Civil y su Programa “Castores Nuevo León (en lo sucesivo “Castores Nuevo León”), de conformidad a 
+                    lo dispuesto por la fracción I del artículo 16 de la Ley, será el responsable de tu información personal (Datos Personales).
+                    </br>
+                    <strong>4.</strong> “Castores Nuevo León” tiene como objetivo mantener informados a sus miembros, y para tal efecto proporciona diversos 
+                    servicios los cuales de manera enunciativa más no limitativa consisten en los siguientes: Comunicación constante sobre eventos, 
+                    seguimiento de campañas, actividades con niños, recopilación de datos con fines estadísticos, etc. Para proporcionarte dichos 
+                    servicios es necesario tratar y en algunos casos, transferir algunos de tus datos personales.
+                    </br>
+                    <strong>5.</strong> Al enviar vía correo electrónico tus datos personales a los diferentes miembros de “Castores Nuevo León” y/o complementar 
+                    la solicitud en línea que aparece en la página de internet de “Castores Nuevo León”, aceptas y autorizas a “Castores Nuevo León”
+                    a utilizar y tratar de forma automatizada tus datos personales e información suministrados, los cuales formarán parte de nuestra
+                    base de datos con la finalidad de usarlos en forma enunciativa, más no limitativa para: identificarte, ubicarte, comunicarte, contactarte,
+                    enviarte información, actualizar nuestra base de datos, obtener estadísticas, promocionar los servicios, programas, cursos y eventos de “Castores Nuevo León”.
+                    </br>
+                    <strong>6.</strong> La temporalidad del manejo de tus Datos Personales será indefinida a partir de la fecha en que nos los proporciones,
+                    pudiendo oponerte al manejo de estos en cualquier momento que lo consideres oportuno.
+                    </br>
+                    <strong>7.</strong> “Castores Nuevo León” como responsable del tratamiento de tus datos personales, está obligada a cumplir con los principios 
+                    de licitud, consentimiento, información, calidad, finalidad, lealtad, proporcionalidad y responsabilidad tutelados en la Ley;
+                    por tal motivo con fundamento en los artículos 13 y 14 de la Ley, “Castores Nuevo León” se compromete a guardar estricta confidencialidad 
+                    de tus datos personales, así como a mantener las medidas de seguridad administrativas, técnicas y físicas que permitan protegerlos contra 
+                    cualquier daño, pérdida, alteración, acceso o tratamiento no autorizado.
+                    </br>
+                    <strong>8.</strong> En términos de lo establecido por el artículo 22 de la Ley, tienes derecho en cualquier momento a 
+                    ejercer tus derechos de acceso, rectificación, cancelación y oposición al tratamiento de tus datos personales, 
+                    mediante la solicitud vía correo electrónico dirigido a Ma. Elena Valencia (director@castoresnl.org.mx) para 
+                    asuntos relacionados con la Base de datos y/o Atención a Socios, o por escrito en nuestro domicilio ubicado en 
+                    Héroes del 47 Nte. # 431 Centro Monterrey, N. L.  México C.P. 64000.  En cumplimiento al artículo 29 de la Ley, 
+                    dicha solicitud deberá contener los siguientes datos: a) Tu nombre y domicilio u otro medio para comunicarte la 
+                    respuesta a tu solicitud; b) Los documentos que acrediten tu identidad o, en su caso, la representación legal de 
+                    la persona que realiza la solicitud a tu nombre; c) La descripción clara y precisa de los datos personales respecto 
+                    de los que buscas ejercer alguno de los derechos mencionados en el párrafo anterior, y d) Cualquier otro elemento 
+                    o documento que facilite la localización de tus datos personales. En caso de solicitar la rectificación de datos 
+                    personales, adicionalmente deberás indicar las modificaciones a realizarse y aportar la documentación que sustente 
+                    tu petición. La respuesta a tu solicitud se te comunicará en un plazo de veinte días hábiles, contados desde la fecha 
+                    en que se recibió, pudiendo ampliarse a veinte días más en los casos que así lo establezcan la Ley; a efecto de que de
+                    resultar procedente, se lleven a cabo las medidas adoptadas para cumplir con tu solicitud, mismas que se llevarán a cabo
+                    dentro de los quince días hábiles siguientes a la fecha en que se comunique la respuesta.
+                    </br>
+                    <strong>9.</strong> “Castores Nuevo León” ocasionalmente modificará y corregirá este Aviso de Privacidad, 
+                    por lo tanto, te pedimos que revises este aviso regularmente en la página <a href="http://www.castoresnl.org.mx">(http://www.castoresnl.org.mx) </a>
+                    para que estés enterado de los cambios y veas cómo te pueden afectar.
+                    </br>
+                    <strong>10.</strong> Te sugerimos conocer y analizar el contenido de la Ley Federal de Protección de Datos Personales en 
+                    Posesión de los Particulares. Estamos a tus órdenes para cualquier aclaración a este respecto a la dirección de 
+                    correo electrónico Ma. Elena Valencia (director@castoresnl.org.mx) para asuntos relacionados con la Base de datos 
+                    y/o Atención a Socios, o por escrito en nuestro domicilio ubicado en Héroes del 47 Nte. # 431 Centro Monterrey, N. L.  México C.P. 64000.
+
+                  </p>
+                </div> <!-- modal-body -->
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div> <!-- modal-content -->
+            </div> <!-- modal-dialog -->
+          </div> <!-- modal -->
 
     <script
       src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
@@ -699,5 +857,11 @@
     >
     </script>
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script$('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true
+    });></script>
   </body>
 </html>
