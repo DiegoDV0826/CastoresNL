@@ -144,7 +144,7 @@ body { font-family: sans-serif; }
 
 .carousel-cell {
   width: 28%;
-  margin-right: 30px;
+  margin-right: 10px;
   background: #8C8;
   border-radius: 5px;
   counter-increment: carousel-cell;
